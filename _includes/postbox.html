@@ -1,0 +1,37 @@
+<!-- begin post -->
+{% assign author = site.authors[post.author] %}
+<div class="card">
+    <a href="{{ post.url | absolute_url }}">
+        {% if post.image %} <img class="rounded mb-4" src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.title }}"> {% endif %}
+    </a> <!-- if post has image, roudns corner + displays-->
+    <div class="card-block">
+        <h2 class="card-title h4 serif-font"><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2> <!--show post title as clickable link-->
+        <p class="card-text text-muted">{% assign content_parts = post.content | split: '<!--more-->' %}
+            <p class="card-text text-muted">
+                {% if content_parts.size > 1 %}
+                {{ content_parts[1] | markdownify | strip_html | truncatewords: 25 }}
+            {% else %}
+            {{ post.excerpt | strip_html | truncatewords: 19 }}
+            {% endif %} </p> <!--shows short preview of post-->
+  <!--part above edited, view old code in notes-->
+        <div class="metafooter">
+            <div class="wrapfooter small d-flex align-items-center">
+                <span class="author-meta">
+                By  <span class="post-name"> {% if post.author %}{{ author.display_name }}{% else %}{{ site.author }}{% endif %}, </span>             
+                on <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+                </span>  <!-- display authro name if post ahs is not site author and shows date posted-->             
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+
+<!--help with:
+Change how long the excerpt is
+
+Hide the author or image
+
+Add categories or tags to the post preview
+I!
+-->

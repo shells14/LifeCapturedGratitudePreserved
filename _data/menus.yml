@@ -1,0 +1,41 @@
+# Top Menu
+topmenu:
+
+- title: Home
+  url: ""
+
+- title: About Me
+  url: "about/"
+
+- title: Contact
+  url: "contact/"
+
+- 
+
+  #title: Get this theme   (GOT RID OF GET THIS THEME BUTTON)
+  #url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
+  #class: "ml-2 btn btn-dark text-white px-3"
+  #external: true
+  #maybe make it about project button??
+
+- title: About the Project   # <-- Add this new button
+  url: "about-project/"     # <-- The permalink you set in your new markdown file
+  #class: "ml-2 btn btn-dark text-white px-3" old button colour
+  class: "ml-2 btn btn-about text-white px-3"
+  external: false          # false because this is an internal page
+
+# Footer Menu
+footermenu:
+
+- title: Home
+  url: ""
+
+- title: Privacy Policy
+  url: "privacy-policy/"
+
+- title: Contact
+  url: "contact/"
+
+- #title: Download
+  #url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/  
+  #external: true
