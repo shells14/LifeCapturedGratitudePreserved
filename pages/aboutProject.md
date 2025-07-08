@@ -24,9 +24,40 @@ This website is a collaborative effort, inviting people featured in the photos t
 
 ***
 
-<!--<h2>Sample Flipbook Preview</h2>
+## Proper Flipbook Gallery
 
-<iframe src="https://flowpaper.com/flipbook/?pdf=https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" width="100%" height="600px" style="border:none;"></iframe> -->
+<div id="flipbookViewer" style="width: 100%; height: 600px;"></div>
+
+<script>
+  FlowPaperViewer(
+    "flipbookViewer",
+    {
+      config: {
+        //DOC: "{{ site.baseurl }}/assets/pdf/gallery2.pdf",
+        DOC: "/affiliates-jekyll-theme-master/assets/pdf/gallery2.pdf",
+        Scale: 1.0,
+        ZoomTransition: 'ease',
+        ZoomTime: 0.5,
+        ZoomInterval: 0.1,
+        FitPageOnLoad: true,
+        FitWidthOnLoad: false,
+        FullScreenAsMaxWindow: false,
+        ProgressiveLoading: true,
+        MinZoomSize: 0.2,
+        MaxZoomSize: 5,
+        SearchMatchAll: false,
+        InitViewMode: 'Portrait',
+        RenderingOrder: 'html5',
+        ViewModeToolsVisible: true,
+        ZoomToolsVisible: true,
+        NavToolsVisible: true,
+        CursorToolsVisible: true,
+        SearchToolsVisible: true
+      }
+    }
+  );
+</script>
+
 
 Inspired by readings in my Culture and Technology Studies summer workshop course (CTS3030), I attempt to show how photographs work as tools for memory-making and shaping reality—and how history is framed differently depending on how both the individual and the photographer view what’s valuable in a moment. 
 
