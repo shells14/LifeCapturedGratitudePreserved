@@ -26,73 +26,7 @@ This website is a collaborative effort, inviting people featured in the photos t
 
 ## Proper Flipbook Gallery
 
-<!--<div id="flipbookViewer" style="width: 100%; height: 600px;"></div>
-
-<script>
-  FlowPaperViewer(
-    "flipbookViewer",
-    {
-      config: {
-        //DOC: "{{ site.baseurl }}/assets/pdf/gallery2.pdf",
-        DOC: "/affiliates-jekyll-theme-master/assets/pdf/gallery2.pdf",
-        Scale: 1.0,
-        ZoomTransition: 'ease',
-        ZoomTime: 0.5,
-        ZoomInterval: 0.1,
-        FitPageOnLoad: true,
-        FitWidthOnLoad: false,
-        FullScreenAsMaxWindow: false,
-        ProgressiveLoading: true,
-        MinZoomSize: 0.2,
-        MaxZoomSize: 5,
-        SearchMatchAll: false,
-        InitViewMode: 'Portrait',
-        RenderingOrder: 'html5',
-        ViewModeToolsVisible: true,
-        ZoomToolsVisible: true,
-        NavToolsVisible: true,
-        CursorToolsVisible: true,
-        SearchToolsVisible: true
-      }
-    }
-  );
-</script> -->
-
-## Proper Flipbook Gallery
-
-<div id="flipbookViewer" style="width: 100%; height: 600px;"></div>
-
-{% raw %}
-<script>
-  FlowPaperViewer(
-    "flipbookViewer",
-    {
-      config: {
-        DOC: "{{ '/assets/pdf/gallery2.pdf' | relative_url }}",
-        Scale: 1.0,
-        ZoomTransition: 'ease',
-        ZoomTime: 0.5,
-        ZoomInterval: 0.1,
-        FitPageOnLoad: true,
-        FitWidthOnLoad: false,
-        FullScreenAsMaxWindow: false,
-        ProgressiveLoading: true,
-        MinZoomSize: 0.2,
-        MaxZoomSize: 5,
-        SearchMatchAll: false,
-        InitViewMode: 'Portrait',
-        RenderingOrder: 'html5',
-        ViewModeToolsVisible: true,
-        ZoomToolsVisible: true,
-        NavToolsVisible: true,
-        CursorToolsVisible: true,
-        SearchToolsVisible: true
-      }
-    }
-  );
-</script>
-{% endraw %}
-
+<a href="https://89dd0892-trial.flowpaper.com/finalGallery/" class="fp-embed" data-fp-width="100%" data-fp-height="100%" style="max-width: 100%"></a><script async defer src="https://cdn-online.flowpaper.com/zine/3.9.1/js/embed.min.js"></script>
 
 
 Inspired by readings in my Culture and Technology Studies summer workshop course (CTS3030), I attempt to show how photographs work as tools for memory-making and shaping reality—and how history is framed differently depending on how both the individual and the photographer view what’s valuable in a moment. 
