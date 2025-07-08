@@ -33,11 +33,9 @@ This website is a collaborative effort, inviting people featured in the photos t
 <a href="https://89dd0892-trial.flowpaper.com/finalGallery/" 
    class="fp-embed" 
    data-fp-width="100%" 
-   data-fp-height="800" 
-   style="width: 100%; height: 800px; display: block; max-width: 100%;">
+   data-fp-height="100vh" 
+   style="width: 100%; height: 100vh; display: block; max-width: 100%;">
 </a>
-<script async defer src="https://cdn-online.flowpaper.com/zine/3.9.1/js/embed.min.js"></script>
-
 
 
 Inspired by readings in my Culture and Technology Studies summer workshop course (CTS3030), I attempt to show how photographs work as tools for memory-making and shaping reality—and how history is framed differently depending on how both the individual and the photographer view what’s valuable in a moment. 
