@@ -30,7 +30,8 @@ This website is a collaborative effort, inviting people featured in the photos t
 
 <h2>Proper Flipbook Gallery</h2>
 
-<div style="width: 100%; max-width: 100%; height: 90vh;">
+<!-- Break out of the narrow layout for flipbook -->
+<div style="width: 100vw; margin-left: calc(-50vw + 50%); height: 90vh;">
   <a href="https://89dd0892-trial.flowpaper.com/finalGallery/"
      class="fp-embed"
      data-fp-width="100%"
@@ -39,7 +40,6 @@ This website is a collaborative effort, inviting people featured in the photos t
   </a>
 </div>
 
-<script async defer src="https://cdn-online.flowpaper.com/zine/3.9.1/js/embed.min.js"></script>
 
 
 
@@ -61,8 +61,4 @@ This project tends to take on a positive framing, with the **goal of helping peo
 
 <!--TO DO:
 -add image gallery here: https://biati-digital.github.io/glightbox/
--write up emmas interview
--fix web image size
--text? add my reflections
--host website-->
 
