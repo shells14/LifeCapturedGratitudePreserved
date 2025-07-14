@@ -37,7 +37,7 @@ Q3: *If this wasn’t your happiest moment, does the photo still hold a lesson o
         <th>Description</th>
     </tr>
     <tr>
-        <td><a href = "https://tascllc.com/en/tulip-pick-farm-buy?plan=26&utm_source=gmb&utm_medium=organic"> TASC Farm</a>(Niagara-on-the-Lake, Ontario)</td>
+        <td><a href = "https://tascllc.com/en/tulip-pick-farm-buy?plan=26&utm_source=gmb&utm_medium=organic"> TASC Farm</a> (Niagara-on-the-Lake, Ontario)</td>
         <td>April 28, 2025</td>
         <td>4:20PM</td>
         <td>Jake, staring into his girlfriend Ashley’s eyes, brushes his thumb across her cheek as she smiles back at him, surrounded by a field of red and pink tulips.</td>
