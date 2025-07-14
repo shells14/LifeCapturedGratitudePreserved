@@ -43,7 +43,7 @@ A beautiful walk in Vancounver, British Columbia. As the day was coming to an en
         <th>Description</th>
     </tr>
     <tr>
-        <td>Stanley Park Trail (Vancouver, British Columbia)</td>
+        <td> <a href = "https://vancouver.ca/parks-recreation-culture/stanley-park.aspx"> Stanley Park</a> (Vancouver, British Columbia)</td>
         <td>September 21, 2023</td>
         <td>8:30PM</td>
         <td>Ashley is dressed in a cozy, striped maroon sweater and is half turned towards the camera, with a soft smile and a look of awe in her eyes. The lake forms the background, along with the beautiful warm orange and yellow tones of the sun setting behind the mountains beyond the lake.
