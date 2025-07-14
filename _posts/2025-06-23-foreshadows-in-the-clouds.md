@@ -38,7 +38,7 @@ Q3: *If this wasn’t your happiest moment, does the photo still hold a lesson o
         <th>Description</th>
     </tr>
     <tr>
-        <td>Valle de Piedras Encimadas (Zacatlan,Puebla)</td>
+        <td>[Valle de Piedras Encimadas] (https://piedrasencimadas.com/) (Zacatlan,Puebla)</td>
         <td>December 29, 2024</td>
         <td>5:40PM</td>
         <td>Stacy is seated in the middle of a grassy field, legs crossed, with her head turned slightly to the side and tilted toward the sky. Enormous bunches of clouds hang low to the ground, surrounding her—there’s little to be seen beyond the blinding whiteness.</td>
