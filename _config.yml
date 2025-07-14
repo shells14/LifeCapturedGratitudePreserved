@@ -1,7 +1,7 @@
 title: "Shelley Salinas Photography"
 email: shelleysalinas@icloud.com
 timezone: UTC
-baseurl: "/affiliates-jekyll-theme-master"
+baseurl: "/LifeCapturedGratitudePreserved"
 url: https://shells14.github.io 
 permalink: "/:title/"
 excerpt_separator: "<!--more-->" #added this to chnage where plog post shows excerpt (preview of log post)
