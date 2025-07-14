@@ -47,7 +47,7 @@ Inspired by readings in my Culture and Technology Studies summer workshop course
   </a>
   <a href="{{ '/assets/images/balloons.jpeg' | relative_url }}" class="glightbox" data-gallery="project-gallery">
     <img src="{{ '/assets/images/balloons.jpeg' | relative_url }}" alt="Photo 2" style="width: 100%; max-width: 300px;">
-  </a>
+  </a>SS
 
   <!-- Add more images here -->
 </div>
