@@ -136,15 +136,22 @@ small, .small {
 ================================================== */
 .hero {
     /*background: #3d61fd;*/
-    background-image: url("../images/shelleyphotographyheader.png");
+    //background-image: url("../images/shelleyphotographyheader.png");
     //background-image: url("{{ site.baseurl }}/assets/images/shelleyphotographyheader.png");
-    background-size: contain;
+    /*background-size: contain;
     background-repeat: no-repeat;
     background-position: center top;
     width: 100%;
     height: auto;
     aspect-ratio: 16 / 9;
-    padding: 5rem 5rem;
+    padding: 5rem 5rem; */
+  background-image: url("../images/shelleyphotographyheader.png");
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+}
+
+
 }
 
 @media only screen and (max-width: 1024px) {
