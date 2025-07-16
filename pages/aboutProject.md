@@ -58,13 +58,17 @@ This project tends to take on a positive framing, with the **goal of helping peo
 
 <div style="text-align: center; margin-top: 20px;">
   <a href="{{ site.baseurl }}/assets/pdf/gallery.pdf" download class="btn-custom-download">
+    <i class="fa-solid fa-download" style="margin-right: 5px;"></i>
     Download Project Documentation PDF
   </a>
 </div>
 
 ***
 <h2>Flipbook Gallery</h2>
-<a href="https://8703081b-trial.flowpaper.com/finalGallery/" class="fp-embed" lightbox="true" data-fp-width="400px" data-fp-height="300px" style="max-width: 100%"></a><script async defer src="https://cdn-online.flowpaper.com/zine/3.9.1/js/embed.min.js"></script>
+<!--<a href="https://8703081b-trial.flowpaper.com/finalGallery/" class="fp-embed" lightbox="true" data-fp-width="400px" data-fp-height="300px" style="max-width: 100%"></a><script async defer src="https://cdn-online.flowpaper.com/zine/3.9.1/js/embed.min.js"></script> -->
+<a href="https://84dd080f-trial.flowpaper.com/finalGallery/" class="fp-embed" lightbox="true" data-fp-width="400px" data-fp-height="300px" style="max-width: 100%"></a><script async defer src="https://cdn-online.flowpaper.com/zine/3.9.1/js/embed.min.js"></script>
+
+
 
 <!--learned that Every page/post needs YAML front matter at the top to tell Jekyll how to process it.-->
 
