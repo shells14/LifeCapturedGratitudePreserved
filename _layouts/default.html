@@ -49,16 +49,16 @@ gtag('config', '{{site.ganalytics}}');
           {% else %}
           <span class="d-none d-md-inline-block">{{ site.title }}</span>
           {% endif %} -->
-          <span class="ml-2 site-title-text" style="font-size: 1.1rem; text-transform: uppercase;">
-              Life Captured, Gratitude Preserved
-            </span>
           {% if page.about_project %}
             <img class="mr-2" src="{{site.baseurl}}/assets/images/ShelleySalinasAboutLogo.png" alt="logo" style="height: 60px;">
-            <span class="ml-2 site-title-text" style="font-size: 1.1rem; text-transform: uppercase;">
+            <span class="ml-2 site-title-text" style="font-size: 1.1rem;">
               Life Captured, Gratitude Preserved
             </span>
           {% elsif site.logo %}
             <img class="mr-2" src="{{site.baseurl}}/{{site.logo}}" alt="logo" style="height: 60px;">
+            <span class="ml-2 site-title-text" style="font-size: 1.1rem; text-transform: uppercase;">
+              Life Captured, Gratitude Preserved
+            </span>
           {% else %}
             <span class="d-none d-md-inline-block">{{ site.title }}</span>
           {% endif %}
