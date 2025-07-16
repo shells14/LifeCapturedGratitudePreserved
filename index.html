@@ -23,6 +23,7 @@ background: '/img/bg-index.jpg'
 
 <!-- Featured (loops through all blog posts in _posts/)
 ================================================== --> 
+<!--
 <section class="row">
   {% for post in site.posts %}
       {% if post.featured == true %}
@@ -32,11 +33,12 @@ background: '/img/bg-index.jpg'
       {% endif %}
   {% endfor %}
   </div>
-</section>
+</section> -->
+
 
 <!-- Posts List with Sidebar (except featured) (show all other posts using pagination??)
 ================================================== -->
-<section class="row">
+<!--<section class="row">
   <div class="col-sm-8">
     <div class="row">
       {% for post in paginator.posts %}
@@ -46,9 +48,9 @@ background: '/img/bg-index.jpg'
       </div>
       {% endunless %}
       {% endfor %}
-    </div>
+    </div> -->
 
-    <!-- Hero Video Section -->
+    <!-- Hero Video Section 
     <div class="hero-video my-5">
       <video autoplay muted loop playsinline>
         <source src="{{ site.baseurl }}/assets/video/webVideo.MP4" type="video/mp4">
@@ -58,9 +60,11 @@ background: '/img/bg-index.jpg'
         <h2>“Looking for a poem with my camera”</h2>
         <p class="lead"> - A popular saying.</p>
       </div>
-    </div>
+    </div> -->
+
 
     <!-- Pagination -->
+    <!--
     <div class="bottompagination">
       <span class="navigation" role="navigation">
           {% include pagination.html %}
@@ -70,4 +74,42 @@ background: '/img/bg-index.jpg'
   <div class="col-sm-4">
     {% include sidebar.html %}
   </div>
+</section> -->
+
+<section class="row">
+  <div class="col-sm-8">
+    <div class="row">
+      {% for post in paginator.posts %}
+        {% unless post.featured == true %}
+          <div class="col-md-6 mb-5">
+            {% include postbox.html %}
+          </div>
+        {% endunless %}
+      {% endfor %}
+    </div>
+
+    <!-- Pagination -->
+    <div class="bottompagination">
+      <span class="navigation" role="navigation">
+        {% include pagination.html %}
+      </span>
+    </div>
+  </div>
+
+  <div class="col-sm-4">
+    {% include sidebar.html %}
+  </div>
 </section>
+
+<!-- Video section OUTSIDE and BELOW the blog container -->
+<div class="hero-video my-5">
+  <video autoplay muted loop playsinline>
+    <source src="{{ site.baseurl }}/assets/video/yourvideo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="overlay-text text-white text-center">
+    <h2>“Design is intelligence made visible.”</h2>
+    <p class="lead">Let your visuals speak louder than words.</p>
+  </div>
+</div>
+
