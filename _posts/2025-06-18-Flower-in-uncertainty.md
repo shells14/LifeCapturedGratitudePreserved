@@ -2,7 +2,7 @@
 layout: post
 title:  "The Brightest Flower Among a Field of Uncertainty"
 author: Jake
-categories: [ Couple, Candid ]
+categories: [ Romance, Field]
 image: assets/images/jakefield.jpeg
 ---
 
