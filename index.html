@@ -48,19 +48,6 @@ background: '/img/bg-index.jpg'
       {% endfor %}
     </div>
 
-    <!-- Hero Video Section  -->
-    <div class="hero-video my-5">
-      <video autoplay muted loop playsinline>
-        <source src="{{ site.baseurl }}/assets/video/webVideo.MP4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <div class="overlay-text text-white text-center">
-        <h2 class= "handwritten">“Looking for a poem with my camera.”</h2>
-        <p class="lead"> - a popular saying</p>
-      </div>
-    </div>
-
-
     <!-- Pagination -->
     <div class="bottompagination">
       <span class="navigation" role="navigation">
@@ -71,4 +58,18 @@ background: '/img/bg-index.jpg'
   <div class="col-sm-4">
     {% include sidebar.html %}
   </div>
+</section>
+
+<section class="row">
+  <!-- Hero Video Section  -->
+    <div class="hero-video my-5">
+      <video autoplay muted loop playsinline>
+        <source src="{{ site.baseurl }}/assets/video/webVideo.MP4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="overlay-text text-white text-center">
+        <h2 class= "handwritten">“Looking for a poem with my camera.”</h2>
+        <p class="lead"> - a popular saying</p>
+      </div>
+    </div>
 </section>
