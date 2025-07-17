@@ -750,7 +750,7 @@ th.description, td.description {
   width: 100%;
   height: 60vh;
   overflow: hidden;
-  border-radius: 1rem;
+  border-radius: 0;
 }
 
 .hero-video video {
@@ -780,7 +780,7 @@ th.description, td.description {
 }
 
 .overlay-text h2 {
-  font-size: 2.5rem;
+  font-size: 2.0rem;
   font-weight: 700;
   /*color: #e4c1a6; */
   /*font-family: 'Gloria Hallelujah', cursive;*/
