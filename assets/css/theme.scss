@@ -777,15 +777,13 @@ th.description, td.description {
   backdrop-filter: blur(2px);
   top: 50%;
   transform: translateY(-50%);
-  /*fixing font style and color*/
-  /*font-family: 'Georgia', serif; /* or 'Montserrat', 'Poppins', etc. */
 }
 
 .overlay-text h2 {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #e4c1a6;
-  font-family: 'Gloria Hallelujah', cursive;
+  /*color: #e4c1a6; */
+  /*font-family: 'Gloria Hallelujah', cursive;*/
 }
 
 .overlay-text p {
