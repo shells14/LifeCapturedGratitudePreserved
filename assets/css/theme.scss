@@ -568,10 +568,10 @@ background-color: #f0f0ea;
 img {max-width:100%;height: auto;}
 
 .bottompagination span.navigation a {
-	background: #fdd93d;
-    color: #333;
-    padding: 5px;
-    border-radius: 3px;
+	background: #4a4a7a;
+    color: #ffffff;
+    padding: 2px;
+    border-radius: 1px;
     text-transform: none;
     font-weight: 600;
     letter-spacing: 0;
@@ -750,7 +750,7 @@ th.description, td.description {
   width: 100%;
   height: 60vh;
   overflow: hidden;
-  border-radius: 0;
+  border-radius: 0 !important;
 }
 
 .hero-video video {
