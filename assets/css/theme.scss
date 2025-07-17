@@ -764,6 +764,11 @@ th.description, td.description {
   z-index: 1;
 }
 
+/* Use "Gloria Hallelujah" for handwritten style headings or accents */
+.handwritten {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
 .overlay-text {
   position: relative;
   z-index: 2;
@@ -772,6 +777,21 @@ th.description, td.description {
   backdrop-filter: blur(2px);
   top: 50%;
   transform: translateY(-50%);
+  /*fixing font style and color*/
+  //font-family: 'Georgia', serif; /* or 'Montserrat', 'Poppins', etc. */
+  color: #e4c1a6; /* Change to any color like #f06543, #ffc107, etc. */
+}
+
+.overlay-text h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fefefe;
+  font-family: 'Share', serif;
+}
+
+.overlay-text p {
+  font-size: 1.2rem;
+  color: #fffefe; /* softer subtitle color */
 }
 
 /*chnage pagnation button, and video, also on about me page add diffent ways of adding my text, i fun ways liek sicky notes or notebook, or column in magizne
