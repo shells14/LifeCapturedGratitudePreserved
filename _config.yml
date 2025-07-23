@@ -33,7 +33,7 @@ include:
   - assets/pdf
 
 
-# Authors
+# Authors and their information
 authors:
   Shelley Salinas:
     name: Shelley Salinas
@@ -88,8 +88,9 @@ authors:
 # Social
 social:
   instagram: https://www.instagram.com/shelleycarretophotography/
-  facebook: https://www.facebook.com/bootstrapstartercom-346329609045284
-  twitter: https://twitter.com/bstartercom
+  #dont need
+  #facebook: https://www.facebook.com/bootstrapstartercom-346329609045284
+  #twitter: https://twitter.com/bstartercom
 
 # Plugins
 plugins: 
