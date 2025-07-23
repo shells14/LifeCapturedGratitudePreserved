@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!--create and defines that this document is an HTML5-->
 <html lang="en">
-<head>
+<head> <!--contains meta info about page-->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="icon" href="{{ site.baseurl }}/{{site.favicon}}">
 
-<title>{{ page.title }} | {{site.title}}</title>
+<title>{{ page.title }} | {{site.title}}</title> <!--shown in the browser's title bar, retrieve title from config.yml file-->
 
 {% seo %}
 
@@ -35,7 +35,7 @@ gtag('config', '{{site.ganalytics}}');
  <!-- Font Awesome CDN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-<!-- Google Fonts: Patrick Hand -->
+<!-- Google Fonts: Gloria Hallelujah  -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Share:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -139,7 +139,7 @@ gtag('config', '{{site.ganalytics}}');
       <img src="{{site.baseurl}}/assets/images/credits.png" alt="powered by WowThemes">
     </a>
   </div>
--->
+--> <!--comment otu because i donated to his site-->
   <div class="credits mx-auto text-center mb-3 small">
     <p>Original layout provided by Sal's <a href="https://bootstrapstarter.com/" target="_blank"> Affiliates Jekyll Theme</a>, heavily edited and restructured by Shelley Salinas.</p>
   </div>
@@ -153,8 +153,11 @@ gtag('config', '{{site.ganalytics}}');
     </li>
     {% endfor %}
     </ul>
-    <div class="copyright small">
+    <!--<div class="copyright small">
        Copyright © {{site.title}}. All rights reserved.
+    </div> -->
+    <div class="copyright small">
+    © {{site.title}}. Licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="license noopener">CC BY-NC 4.0</a>.
     </div>
 </footer>
 
@@ -174,4 +177,4 @@ gtag('config', '{{site.ganalytics}}');
     
 </html>
 
-<!--This file is your base template, meaning every page using layout: default will be wrapped inside this HTML structure.-->
+<!--This file is the base template, every page using layout: default will be wrapped inside this HTML structur, which includes the navigation bar with socials, title, menu buttons and the footer which gives credits and creative commns lcinese.--> 
