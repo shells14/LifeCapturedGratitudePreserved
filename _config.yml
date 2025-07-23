@@ -47,13 +47,15 @@ authors:
     display_name: Stacy Airam
     avatar: 'assets/images/stacyAuthor.png'
     email: Stacysalinasc@gmail.com
+    instagram: https://www.instagram.com/stacysalinascarreto/
     description: Stacy is a contributing writer to this post, offering her reflections and perspective on the moment captured.
   Emma:
     name: Emma Carne
     display_name: Emma Carne
     avatar: 'assets/images/emmaportrait.png'
     email: emmaacarne@gmail.com
-    description: Emma is a contributing writer to this post, offering her reflections and perspective on the moment captured.
+    instagram: https://www.instagram.com/emmaacarne/ 
+    description: Social and Caring Student, Lover of Moments Shared with Friends, Family, and Loved Ones.
   Jake:
     name: Jake Downey
     display_name: Jake Downey
@@ -66,7 +68,8 @@ authors:
     display_name: Ashley Salinas
     avatar: 'assets/images/ashleyportrait.png'
     email: ashleycarreto4@gmail.com
-    description: Ashley is a contributing writer to this post, offering her reflections and perspective on the moment captured.
+    instagram: https://www.instagram.com/ashley_carreto/
+    description: Ashley is Shelley’s sister, who loves taking photos with her.
   Kyla:
     name: Kyla Romachyk
     display_name: Kyla Romachyk

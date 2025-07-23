@@ -3,6 +3,7 @@ title: Home
 layout: default
 background: '/img/bg-index.jpg'
 ---
+<!--layout for home Landing page-->
 
 <!-- Home Intro
 ================================================== -->
@@ -12,7 +13,7 @@ background: '/img/bg-index.jpg'
     <div class="col-md-6">
        <!--<h1 class="font-weight-bold mb-4 serif-font">Let me  teach you how to become successful online</h1>
       <p class="lead mb-4">My name is Lyam and I'm here to share with you my knowledge and experience of over 10 years of monetizing my blog.</p>
-      <a href="{{site.baseurl}}/about" class="btn btn-dark text-white px-5 btn-lg">About me</a> -->
+      <a href="{{site.baseurl}}/about" class="btn btn-dark text-white px-5 btn-lg">About me</a> --> <!--RFMOVED OLD HEADER WITH BUTTONS AND ADDED MY IMAGE INSTEAD-->
     </div>
     <div class="col-md-6 text-right pl-0 pl-lg-4">
      <!--<img class="intro" height="500" src="{{site.baseurl}}/assets/images/EventPoster.png"> -->   
@@ -21,7 +22,7 @@ background: '/img/bg-index.jpg'
 </div>
 {% endif %}
 
-<!-- Featured (loops through all blog posts in _posts/)
+<!-- displays all current blog posts (loops through all blog posts in _posts/)
 ================================================== --> 
 <section class="row">
   {% for post in site.posts %}
@@ -34,7 +35,7 @@ background: '/img/bg-index.jpg'
   </div>
 </section>
 
-<!--Posts List with Sidebar (except featured) (show all other posts using pagination??) 
+<!--Posts lists) for each post it also display the post box associated to it, so like the blog description and publish date and author 
 ================================================== --> 
 <section class="row">
   <div class="col-sm-8">
@@ -48,7 +49,7 @@ background: '/img/bg-index.jpg'
       {% endfor %}
     </div>
 
-    <!-- Pagination -->
+    <!-- Pagination when more than 6 posts -->
     <div class="bottompagination">
       <span class="navigation" role="navigation">
           {% include pagination.html %}
@@ -61,11 +62,11 @@ background: '/img/bg-index.jpg'
 </section>
 
 <section class="row">
-  <!-- Hero Video Section  -->
+  <!-- Video with quote overlay  -->
     <div class="hero-video my-5">
       <video autoplay muted loop playsinline>
         <source src="{{ site.baseurl }}/assets/video/webVideo.MP4" type="video/mp4">
-        Your browser does not support the video tag.
+        Your browser does not support the video tag. <!-- displays if the video cant be loaded-->
       </video>
       <div class="overlay-text text-white text-center">
         <h2 class= "handwritten">“Looking for a poem with my camera.”</h2>
