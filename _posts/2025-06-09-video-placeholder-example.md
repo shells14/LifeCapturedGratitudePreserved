@@ -2,7 +2,7 @@
 layout: post
 title:  "Video Pladeholder Example"
 author: Shelley Salinas
-categories: [ Videos, Tutorial ]
+categories: [ Videos, Test]
 image: assets/images/4.jpg
 ---
 ## Full HTML for video
