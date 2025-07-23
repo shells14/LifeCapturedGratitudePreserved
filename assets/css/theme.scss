@@ -3,6 +3,8 @@
 
 // start content
 
+/*styling many different HTML elements occur in this page, such as buttons, nav bars, images, containers, text etc. */
+
 $green:   #08a057 !default;
 $blue:    #3d61fd !default;
 
@@ -363,6 +365,7 @@ blockquote {
 	}
 }
 
+//blog post card styling
 
 .card {	
     border:0px;
@@ -568,7 +571,7 @@ background-color: #f0f0ea;
 img {max-width:100%;height: auto;}
 
 .bottompagination span.navigation a {
-	background: #4a4a7a;
+	background: #4a4a7a; //pagnation button color
     color: #ffffff;
     padding: 2px;
     border-radius: 1px;
@@ -661,7 +664,7 @@ body.about-project a:hover {
 }
 
 /* Top menu customization for About Project page only ================================================== */
-
+//wanted about project page to follow different color scheme than all others
 body.about-project .navigation-wrap {
   //background-color: #d79d6d; /* change navbar background */
   //background-color: #f0c19b;
