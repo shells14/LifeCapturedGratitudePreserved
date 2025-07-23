@@ -59,7 +59,7 @@ This project tends to take on a positive framing, with the **goal of helping peo
 <!--code for download button-->
 
 <div style="text-align: center; margin-top: 20px;">
-  <a href="{{ site.baseurl }}/assets/pdf/gallery.pdf" download class="btn-custom-download">
+  <a href="{{ site.baseurl }}/assets/pdf/WebsiteDocumentation.pdf" download class="btn-custom-download">
     <i class="fa-solid fa-download" style="margin-right: 5px;"></i>
     Download Project Documentation PDF <!--text on button>
   </a>
