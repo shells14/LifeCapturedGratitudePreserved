@@ -28,9 +28,6 @@ Q3: *If this wasn’t your happiest moment, does the photo still hold a lesson o
 
 > “By having this image captured, it helped me appreciate my body a lot more. By looking at this image, I can just see how cozy this moment was, with the sun shining down on you and all. But overall, this image captured a moment when I realized that **the hard work I was putting into my physical health and training was paying off.**” 
 
-
-A beautiful walk in Vancounver, British Columbia. As the day was coming to an end, a family of 6 decided to go on a walk along the water trails. They saw the sunset, and the golden light that shone out of it landed beautifully on all those who stared at it.
-
 ***
 
 ### 📷 Photo Metadata
